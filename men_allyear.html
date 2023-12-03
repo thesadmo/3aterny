@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3aterny - Perfumes</title>
+    <style>
+        
+        .addToCart {
+            background-color: #088178;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .addToCart:hover {
+            background-color: #065a60;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="home.html">
+            <img src="images/logo_3aterny_grey.jpg" alt="3aterny Logo" style="width: 100px; height: 100px;">
+        </a>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+
+            <li><a href="#">Shop &#9654</a>
+                <div class="sub_menu">
+                    <ul>
+                        <li class="hover_me"><a href="#">Men &#9654</a>
+                            <div class="sub_menu2">
+                                <ul>
+                                    <li><a href="men_summer.html">summer</a></li>
+                                    <li><a href="men_winter.html">winter</a></li>
+                                    <li><a href="men_allyear.html">all year</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover_me"><a href="#">Women &#9654</a>
+                            <div class="sub_menu2">
+                                <ul>
+                                    <li><a href="women_summer.html">summer</a></li>
+                                    <li><a href="women_winter.html">winter</a></li>
+                                    <li><a href="women_allyear.html">all year</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover_me"><a href="#">Unisex &#9654</a>
+                            <div class="sub_menu2">
+                                <ul>
+                                    <li><a href="unisex_summer.html">summer</a></li>
+                                    <li><a href="unisex_winter.html">winter</a></li>
+                                    <li><a href="unisex_allyear.html">all year</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="shop">
+        <h2>Popular Items</h2>
+        <p>New Perfume Collection, and we only get the top sellers</p>
+
+        
+        <div class="items-row">
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/valentino_uomo_intense.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Valentino Uomo Intense', 145, './images/faces/valentino_uomo_intense.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Valentino Uomo Intense</h4>
+                    <span>$ 145</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/elixir_faces_men.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Dior Sauvage Elixir', 200, './images/faces/elixir_faces_men.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Dior Sauvage Elixir</h4>
+                    <span>$ 200</span>
+                </div>
+            </div>
+
+           
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/armani_AcquaDiGioPour.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Armani Acqua Di Gio Pour', 105, './images/faces/armani_AcquaDiGioPour.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Armani Acqua Di Gio Pour</h4>
+                    <span>$ 105</span>
+                </div>
+            </div>
+
+           
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/burbery_hero.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Burberry Hero', 160, './images/faces/burbery_hero.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Burberry Hero</h4>
+                    <span>$ 160</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/Carteir_Pasha.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Carteir Pasha', 170, './images/faces/Carteir_Pasha.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Carteir Pasha</h4>
+                    <span>$ 170</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/givenchy_gentlemen_reserve.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Givenchy Gentlemen Reserve', 160, './images/faces/givenchy_gentlemen_reserve.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Givenchy Gentlemen Reserve</h4>
+                    <span>$ 160</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/gucci_guilty.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Gucci Guilty', 145, './images/faces/gucci_guilty.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Gucci Guilty</h4>
+                    <span>$ 145</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/paco_onemil.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Paco One Million', 200, './images/faces/paco_onemil.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Paco One Million</h4>
+                    <span>$ 200</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/swy.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Armani Stronger With Yoy', 105, './images/faces/swy.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Armani Stronger With Yoy</h4>
+                    <span>$ 105</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/versace_eros_faces.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Versace Eros', 160, './images/faces/versace_eros_faces.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Versace Eros</h4>
+                    <span>$ 160</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/valentino_born_in_roma.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('Valentino Born In Roma', 170, './images/faces/valentino_born_in_roma.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Valentino Born In Roma</h4>
+                    <span>$ 170</span>
+                </div>
+            </div>
+
+            
+            <div class="items-col">
+                <div class="items-img">
+                    <img src="./images/faces/YSL_Lhomme.png" alt="">
+                    <div class="card">
+                        <button class="addToCart" onclick="addToCart('YSL l\'homme', 160, './images/faces/YSL_Lhomme.png')">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>YSL l'homme</h4>
+                    <span>$ 160</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+<footer>
+
+    <div class="copyright">
+        <p>&copy; 2023 3aterny Perfumes. All rights reserved.</p>
+    </div>
+</footer>
+
+</html>

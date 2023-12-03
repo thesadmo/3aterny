@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+
+        <a href="home.html">
+          <img src="images/logo_3aterny_grey.jpg" alt="3aterny Logo" style="width: 100px; height: 100px;">
+      </a>
+        <ul id="navbar">
+          <li><a  href="home.html">Home</a></li>
+          
+          <li><a href="#">Shop &#9654</a>
+            <div class="sub_menu">
+              <ul>
+                <li class="hover_me"><a href="#">Men  &#9654</a>
+                  <div class="sub_menu2">
+                    <ul>
+                     <li><a href="men_summer.html">summer</a></li>
+                     <li><a href="men_winter.html">winter</a></li>
+                     <li><a href="men_allyear.html">all year</a></li>
+                    </ul>
+                  </div>
+                
+                </li>
+                <li class="hover_me"><a href="#">Women &#9654</a>
+                  <div class="sub_menu2" style="top: 15%;">
+                    <ul>
+                     <li><a href="women_summer.html">summer</a></li>
+                     <li><a href="women_winter.html">winter</a></li>
+                     <li><a href="women_allyear.html">all year</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="hover_me"><a href="#">Unisex  &#9654</a>
+                <div class="sub_menu2">
+                    <ul>
+                     <li><a href="unisex_summer.html">summer</a></li>
+                     <li><a href="unisex_winter.html">winter</a></li>
+                     <li><a href="unisex_allyear.html">all year</a></li>
+                    </ul>
+                  </div>
+                </li>
+                </ul>
+            </div>
+          </li>
+    
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="login.html">Login</a></li>
+    
+        </ul>
+      </nav>
+
+    <section id="cart">
+        
+
+        
+        <table id="cartItems">
+            <thead>
+                <tr>
+                    <th>Perfume</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="cartItemsBody"></tbody>
+        </table>
+
+        <!-- Total price -->
+        <div id="cartTotal"></div>
+    </section>
+
+    <script src="script.js"></script>
+    <br>
+    <br>
+    <br>
+</body>
+<footer>
+
+  <p>&copy; 2023 3aterny Perfumes. All rights reserved.</p>
+
+</footer>
+</html>

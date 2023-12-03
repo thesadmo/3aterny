@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>3aterny - Perfumes</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="home.html">
+            <img src="images/logo_3aterny_grey.jpg" alt="3aterny Logo" style="width: 100px; height: 100px;">
+        </a>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section class="login-signup">
+        <div class="toggle-container">
+            <button id="loginToggle" class="active" onclick="toggleForm('loginForm')">Login</button>
+            <button id="signupToggle" onclick="toggleForm('signupForm')">Sign Up</button>
+        </div>
+
+        <form id="loginForm" class="form-container">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <form id="signupForm" class="form-container" style="display: none;">
+            <h2>Sign Up</h2>
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <label for="newPasswordConfirm">Confirm Password:</label>
+            <input type="password" id="newPasswordConfirm" name="newPasswordConfirm" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
